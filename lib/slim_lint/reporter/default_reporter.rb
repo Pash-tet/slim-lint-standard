@@ -20,8 +20,8 @@ module SlimLint
       log.info lint.filename, false
       log.log ":", false
       log.bold lint.line, false
-      log.log ":", false
-      log.bold lint.column, false
+      # log.log ":", false
+      # log.bold lint.column, false
     end
 
     def print_type(lint)
